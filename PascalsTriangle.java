@@ -11,7 +11,7 @@ public class PascalsTriangle {
 
         // while-loop to make sure user inputs a valid number
         while (numRows < 1 || numRows > 30) {
-            System.out.println("Invalid number, please enter a number within the given range: ");
+            System.out.print("Invalid number, please enter a number within the given range: ");
             numRows = scanner.nextInt();
         }
 
